@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "c2467d07-ad77-46b3-88b0-1e9833575562",
+		"name": "examen2s",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/plantas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/plantas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"plantas"
+					]
+				},
+				"description": "Mostrar Collection"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/plantas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "\"Nombre\"",
+							"value": "\"\",",
+							"type": "text"
+						},
+						{
+							"key": "\"Tipo\"",
+							"value": "\"\",",
+							"type": "text"
+						},
+						{
+							"key": "\"taxonomia\"",
+							"value": "\"\",",
+							"type": "text"
+						},
+						{
+							"key": "\"uso\"",
+							"value": "\"\",",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/plantas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"plantas"
+					]
+				},
+				"description": "Guardando"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/plantas/5d24f80b8ae94335f0d896d6",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/plantas/5d24f80b8ae94335f0d896d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"plantas",
+						"5d24f80b8ae94335f0d896d6"
+					]
+				},
+				"description": "Actualizando"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/plantas/5d24f80b8ae94335f0d896d6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/plantas/5d24f80b8ae94335f0d896d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"plantas",
+						"5d24f80b8ae94335f0d896d6"
+					]
+				},
+				"description": "Eliminando"
+			},
+			"response": []
+		}
+	]
+}
