@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "e5119d97-8b4e-42c2-ad2c-bf2591d47fdf",
+		"name": "ExamenSegundoParcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/incidentes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "descripcion",
+							"value": "servidor caido",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "grabe",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "critico",
+							"type": "text"
+						},
+						{
+							"key": "usuarioRegistra",
+							"value": "jimmy",
+							"type": "text"
+						},
+						{
+							"key": "usuarioAsignado",
+							"value": "Jorge",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes"
+					]
+				},
+				"description": "Metodo Get"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "descripcion",
+							"value": "servidor caido",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "grabe",
+							"type": "text"
+						},
+						{
+							"key": "estado",
+							"value": "critico",
+							"type": "text"
+						},
+						{
+							"key": "usuarioRegistra",
+							"value": "jimmy",
+							"type": "text"
+						},
+						{
+							"key": "usuarioAsignado",
+							"value": "Jorge",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes"
+					]
+				},
+				"description": "Guardando metodo post"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes/5d25328e202dd149ac57f826",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes/5d25328e202dd149ac57f826",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes",
+						"5d25328e202dd149ac57f826"
+					]
+				},
+				"description": "Get por Id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes/5d25328e202dd149ac57f826",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes/5d25328e202dd149ac57f826",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes",
+						"5d25328e202dd149ac57f826"
+					]
+				},
+				"description": "eliminando"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes/5d25327c202dd149ac57f825",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes/5d25327c202dd149ac57f825",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes",
+						"5d25327c202dd149ac57f825"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/incidentes/5d25327c202dd149ac57f825",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/incidentes/5d25327c202dd149ac57f825",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"incidentes",
+						"5d25327c202dd149ac57f825"
+					]
+				},
+				"description": "metodo put"
+			},
+			"response": []
+		}
+	]
+}
